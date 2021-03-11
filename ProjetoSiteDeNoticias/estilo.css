@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Background */
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(fundo.png) repeat-x;
+
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    background: url(detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(logo.png) no-repeat center;
+}
+
+/* Barra de Navegação */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul .selecionado{
+   
+    background: #ff0048;
+
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    line-height: 2.1em;
+    text-decoration: none;
+    background: url(divisor.png) no-repeat left center;
+}
+
+
+#topo ul a:hover{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: rgb(41, 0, 0);
+    line-height: 2.1em;
+    text-decoration: none;
+    background: url(divisor.png) no-repeat left center;
+}
+
+
+
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+
+#primario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px ;
+}
+
+#secundario{
+    width: 270px;
+    /* background: green; */
+    margin: 0 0 20px 15px;
+    float: left;
+}
+
+#terciario {
+	width: 270px;
+	float: left;
+	margin: 40 auto;
+}
+
+
+#quartenario {
+	width: 270px;
+	float: left;
+	margin: 50px 0 20px 15px;
+}
+
+
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+#lateral2 {
+	width: 180px;
+	float: left;
+	margin: 50px 0px 0px -500px;
+}
+
+
+
+/* box */ 
+.caixa{
+    background: #f3f3f3 url(fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+.caixadestaque {
+    background: url(fundo-caixa.png);
+    margin: 10px 0;
+    padding: 8px;
+}
+
+
+.caixa-content{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+#lateral2 ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral2 ul a:hover{
+    background: #f9f9f9 url(marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+
+/* Forms */ 
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+    width: 125px;
+    margin-top: 5px;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    
+}
+
+
+/* Rodape */
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+.caixa-content h3{
+    color: #fff;
+    background: #b10333;
+    width: 67%;
+    padding: 3px;
+}
+
+.caixa-content #entrevista{
+    color: #000;
+    width: 95%;
+    padding: 3px;
+}
+
+#listaDeNoticias li a {
+	text-decoration: none;
+}
+
+#listaDeNoticias li a h5{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#listaDeNoticias li a p{
+	
+	color: #000;
+}
+
+
+#listaDeNoticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    background: #eee;
+	cursor: pointer;
+}
+#listaDeNoticias li:hover{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    background:#ccc;
+	cursor: pointer;
+}
+
+#listaDeNoticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+
+.caixadestaque a{
+    color: #ff0048;
+}
+
+#topo .selecionado a:hover{
+    color: #fff;
+}
+
+
+.fotos {
+    margin-top: 60px;
+}
+
+
+ 
+#terciario .caixa-content {
+    width: 800px;
+}
+ #terciario .caixa{
+    width: 900px;
+    margin-left: -50px;
+}
+#terciario .caixadestaque{
+    width: 810px;
+}
+
+#quartenario .caixa-content {
+    width: 700px;
+}
+
+#terciario .caixa{
+    width: 800px;
+    margin-right: -50px;
+}
+#quartenario .caixadestaque{
+    width: 710px;
+}
+
+
+
+
